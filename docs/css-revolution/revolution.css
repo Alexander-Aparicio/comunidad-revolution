@@ -181,7 +181,7 @@ p{font-family: var(--parrafo);}
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto repeat(7,35px);
+    grid-template-rows: auto auto repeat(7,40px);
     grid-template-areas: 
     "title-home"
     "img-home"
