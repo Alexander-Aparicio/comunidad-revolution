@@ -1181,6 +1181,9 @@ p{font-family: var(--parrafo);}
 
 
 /* Utilites */
+.background-transparent{
+    background: transparent;
+}
 .padding-center{
     padding: 0% 13.75%;
 }

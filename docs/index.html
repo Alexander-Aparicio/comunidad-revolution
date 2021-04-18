@@ -184,8 +184,8 @@
             </div>
 
             <div class="juego">
-                <p>El número de orden = Número de palabras que deberá decir.</p>
-                <ol>
+                <p class="head-games">El número de orden = Número de palabras que deberá decir.</p>
+                <ol id="list">
                     <li id="op1"><div class="background-dark"><p class="play"></p></div></li>
                     <li id="op2"><div class="background-dark"><p class="play"></p></div></li>
                     <li id="op3"><div class="background-dark"><p class="play"></p></div></li>
@@ -295,16 +295,17 @@
                 
         </section>
     </section>
-    <section class="modal-juego1 none">
-
+    <form class="modal-juego1 none" id="form-play1">
+        
         <div><p class="close-juego1">X</p><h3>Jugadores</h3></div>
-        <input type="text" id="jugador1" placeholder="Jugador N°1">
-        <input type="text" id="jugador2" placeholder="Jugador N°2">
-        <input type="text" id="jugador3" placeholder="Jugador N°3">
-        <input type="text" id="jugador4" placeholder="Jugador N°4">
-        <button class="btn-juego1">Play</button>
-
-    </section>
+            <input type="text" id="jugador1" placeholder="Jugador N°1">
+            <input type="text" id="jugador2" placeholder="Jugador N°2">
+            <input type="text" id="jugador3" placeholder="Jugador N°3">
+            <input type="text" id="jugador4" placeholder="Jugador N°4">
+            <input type="submit" value="Play" class="btn-juego1">
+            
+        
+    </form>
 
     <script src="revolution-js/revolutionsports.js" type="module"></script>
 
