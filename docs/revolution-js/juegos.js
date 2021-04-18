@@ -13,7 +13,7 @@ export function masPalabrasPG (){
         $cortina = d.querySelector('.background-dark')
     
     d.addEventListener('click', (e)=>{
-        e.preventDefault()
+        
         if(e.target.matches('#juego1')){
             $formJuego1.classList.toggle('none')
         }
@@ -37,7 +37,7 @@ export function masPalabrasPG (){
         } 
     })
 
-    let options = ['#op1','#op2','#op3','#op4','#op5','#op6','#op7','#op8','#op9','#op10','#op11','#op12']
     // let options = ['#op1','#op2','#op3','#op4','#op5','#op6','#op7','#op8','#op9','#op10','#op11','#op12']
+    // // let options = ['#op1','#op2','#op3','#op4','#op5','#op6','#op7','#op8','#op9','#op10','#op11','#op12']
     
 }
