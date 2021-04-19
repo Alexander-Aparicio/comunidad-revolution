@@ -33,11 +33,19 @@ export function masPalabrasPG (){
             
             d.getElementById('turn').textContent = `Es tu turno ${playerOne}`
             $formPlayOne.classList.add('animation-close-der-izq')
-            $formPlayOne.style.setProperty('transform','translateX(-120%)')
+            $formPlayOne.style.setProperty('transform','translateX(-180%)')
+
         } 
+
+        let palabras =['.play1','.play2','.play3','.play4','.play5','.play6','.play7','.play8','.play9','.play10','.play11','.play12']
+        palabras.forEach(el => {
+            if(e.target.matches(el)){
+                d.querySelector(el).style.setProperty('background','transparent')
+            }
+        });
+        
+        
     })
 
-    // let options = ['#op1','#op2','#op3','#op4','#op5','#op6','#op7','#op8','#op9','#op10','#op11','#op12']
-    // // let options = ['#op1','#op2','#op3','#op4','#op5','#op6','#op7','#op8','#op9','#op10','#op11','#op12']
     
 }

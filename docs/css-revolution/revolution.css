@@ -563,6 +563,7 @@ p{font-family: var(--parrafo);}
     margin-bottom: 15px;
     padding-left: 10%;
     padding-right: 10%;
+    width: 100%;
 }
 .juego ol{
     padding-left: 15px;
@@ -571,12 +572,19 @@ p{font-family: var(--parrafo);}
     color: var(--white);
     margin-bottom: 14px;
 }
-.background-dark{
+.juego ol li p{
+    width: 100%;
+    z-index: 1;
+    color: var(--dark);
+    background: var(--dark);
+}
+.juego ol li div{
     width: 175px;
     height: 23px;
     background: var(--dark);
     border-radius: 7px;
     cursor: pointer;
+    z-index: 2;
 }
 .fig-enlace{
     display: flex;
@@ -903,7 +911,7 @@ p{font-family: var(--parrafo);}
     .juego ol li{
         font-size: 18px;
     }
-    .background-dark{
+    .juego ol li div{
         width: 300px;
         height: 25px;
     }
@@ -1071,7 +1079,7 @@ p{font-family: var(--parrafo);}
         padding: 0;
         height: 30px;
     }
-    .background-dark{
+    .juego ol li div{
         width: 300px;
         margin: -15px;
         margin-left: 15px;
